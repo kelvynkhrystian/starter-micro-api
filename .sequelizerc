@@ -1,0 +1,9 @@
+const path = require("path");
+
+module.exports = {
+  // prettier-ignore
+  "config": path.resolve(__dirname, "build", "database", "config", "database.js"),
+  "models-path": path.resolve(__dirname, "src", "database", "models"),
+  "migrations-path": path.resolve(__dirname, "src", "database", "migrations"),
+  "seeders-path": path.resolve(__dirname, "src", "database", "seeders"),
+};
